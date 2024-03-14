@@ -1,0 +1,190 @@
+:root {
+    --text-color: #bbbbbb;
+    --white-color: #ededed;
+    --black-color: #131313;
+    --green-color: #df7d2d;
+    --text-color: #bbbbbb;
+}
+
+* {
+    margin-top: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    letter-spacing: 1px;
+    font-weight: 30px;
+    background-color: black;
+    align-items: center;
+}
+
+/* Header styling */
+
+.first-div {
+    max-width: 768px;
+    position: relative;
+}
+
+.header-detail {
+    text-align: center;
+    margin: 0px;
+}
+
+.header-image {
+    width: 130px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+    text-align: center !important;
+}
+
+.header-name {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: calc(1.375rem);
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-title {
+    letter-spacing: 1px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    background-color: transparent;
+    color: #df7d2d;
+    margin-bottom: 20x;
+}
+
+.first-title {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.first-title {
+    color: #df7d2d;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #df7d2d;
+    border-right-color: #df7d2d;
+    border-bottom-color: #df7d2d;
+    border-left-color: #df7d2d;
+    padding-top: 3px;
+    padding-right: 6px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.second-title {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.second-title {
+    color: #df7d2d;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #df7d2d;
+    border-right-color: #df7d2d;
+    border-bottom-color: #df7d2d;
+    border-left-color: #df7d2d;
+    padding-top: 3px;
+    padding-right: 6px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+/* Body Styling */
+
+.body-div {
+    width: 450px;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.a {
+    color: inherit;
+}
+
+.github {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: 300;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.github {
+    position: relative;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 12px;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(45, 45, 45);
+    border-right-color: rgb(45, 45, 45);
+    border-bottom-color: rgb(45, 45, 45);
+    border-left-color: rgb(45, 45, 45);
+    background-color: rgb(28, 28, 28);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px, 2px, 3px;
+}
+
+/*
+.github div {
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04), transparent);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition-property: all;
+}
+*/
