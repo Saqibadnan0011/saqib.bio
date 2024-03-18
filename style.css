@@ -191,7 +191,22 @@ body {
     grid-template-columns: 1fr;
     padding-top: 20px;
     padding-left: 0px;
+    width: 75%;
+    float: right;
     
+}
+
+.body-div {
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 25%;
+    float: left;
+
+
 }
 
 /* Github styling */
